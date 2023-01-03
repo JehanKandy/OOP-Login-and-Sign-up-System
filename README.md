@@ -14,6 +14,42 @@ I develop this system using `Object oriented PHP` and `PDO` - `PHP Data Objects`
 [more about OOP PHP and PDO](https://www.w3schools.com/php/php_mysql_intro.asp)
 
 
+now i am going to create connection between php and Database
+
+[config.php](https://github.com/JehanKandy/OOP-Login-and-Sign-up-System/blob/main/lib/function/config.php)
+
+    <?php
+        define('HOST','localhost');
+        define('USER','root');
+        define('PASS','');
+        define('DB_NAME','oop_login');
+
+        try{
+            $conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);
+        }
+
+        catch (PDOException $e){
+            exit("ERROR: ". $e->getMessage());
+        }
+    ?>
+    
+firstly i define `HOST`, `USER`, `PASS`, `DB_NAME` and assign `localhost` as server, `root` as user, null or empty as password, and `oop_login` as database name
+
+then 
+
+        try{
+            $conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);
+        }
+
+and i use `try` key word for make connection between php and database using `$conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);`
+as `new PDO` (`PDO` - `PHP Data Objects`)
+
+if there are any errors while make connection between php and database it follow up content of `catch` keyword
+
+        catch (PDOException $e){
+            exit("ERROR: ". $e->getMessage());
+        }
+
 
 # Development Timeline
 
