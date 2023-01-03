@@ -15,6 +15,19 @@ I develop this system using `Object oriented PHP` and `PDO` - `PHP Data Objects`
 
 in here i am not going to create a config.php file so connection functionalties in [function.php](https://github.com/JehanKandy/OOP-Login-and-Sign-up-System/blob/main/lib/function/function.php) file
 
+first lines of file 
+
+    $server = "localhost";
+    $user = "root";
+    $pass = "";
+    $db_name = "oop_login";
+    
+in here i create 4 php variables and assign some values such as following <br>
+`$server` for server - default - `localhost`<br>
+`$user` for xampp username - default - `root`<br>
+`$pass` for password - default - `null`<br>
+`db_name` for database that you want to add data<br>
+
 
 # Development Timeline
 
