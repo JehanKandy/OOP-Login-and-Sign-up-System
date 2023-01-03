@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(185, 185, 185);
+}
+.home-content{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 0 100px 0;
+
+}
