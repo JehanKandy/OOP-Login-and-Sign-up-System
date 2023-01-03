@@ -42,6 +42,7 @@ in here i create 4 php variables and assign some values such as following <br>
     }
     
 in above code i check the connection between php file and database, so in here i user `PDO` - `PHP Data Objects` or you can user `mysqli`
+
 [for connection](https://www.w3schools.com/php/php_mysql_connect.asp)
 
 
