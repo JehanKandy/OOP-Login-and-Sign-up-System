@@ -22,7 +22,7 @@
 
                 <p><input type="reset" value="Clear" class="btn btn-secondary signup-btn">&nbsp;&nbsp;<input type="submit" value="Sign Up" name="sign_up" class="btn btn-success signup-btn"></p>
             </form>
-            Already have an account? <a href="login.php">Sign IN</a>
+            Already have an account? <a href="login.php">Sign In</a>
 
         </div>
     </div>
