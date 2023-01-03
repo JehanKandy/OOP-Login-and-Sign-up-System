@@ -7,6 +7,11 @@
 # Development Timeline
 
   <h4> 03 January 2023</h4>
+  - start Project
+  - index.php
+  - css/style.css
+  - lib/layouts/header.php
+  - lib/layouts/footer.php
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
