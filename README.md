@@ -1,5 +1,5 @@
 <h1 align="center">OOP-Login-and-Sign-up-System</h1>
-<h4 align="center">Online Selection Examination System</h4>
+<h4 align="center">Object oriented Login and Sign up System</h4>
 
 
 <h1>Developers</h1>
