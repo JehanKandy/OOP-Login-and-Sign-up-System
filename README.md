@@ -35,6 +35,15 @@ now i am going to create connection between php and Database
     
 firstly i define `HOST`, `USER`, `PASS`, `DB_NAME` and assign `localhost` as server, `root` as user, null or empty as password, and `oop_login` as database name
 
+then 
+
+        try{
+            $conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);
+        }
+
+and i use `try` key word for make connection between php and database using `$conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);`
+as `new PDO` (`PDO` - `PHP Data Objects`)
+
 # Development Timeline
 
   <h4> 03 January 2023</h4>
