@@ -14,7 +14,11 @@
                 <p class="card-text">Email : </p>
                 <input type="email" name="email" id="" class="form-control form-text">
 
-                
+                <p class="card-text">Password : </p>
+                <input type="password" name="pass" id="" class="form-control form-input">
+
+                <p class="card-text">Confirm Password</p>
+                <input type="password" name="cpass" id="" class="form-control form-input">
             </form>
 
         </div>
