@@ -11,6 +11,7 @@
 
 I develop this system using `Object oriented PHP` and `PDO` - `PHP Data Objects`
 
+[more about OOP PHP and PDO](https://www.w3schools.com/php/php_mysql_intro.asp)
 
 
 # Development Timeline
