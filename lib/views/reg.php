@@ -19,6 +19,8 @@
 
                 <p class="card-text">Confirm Password</p>
                 <input type="password" name="cpass" id="" class="form-control form-input">
+
+                <p><input type="reset" value="Clear" class="btn btn-secondary signup-btn">&nbsp;&nbsp;<input type="submit" value="Sign Up" name="sign_up" class="btn btn-success signup-btn"></p>
             </form>
 
         </div>
