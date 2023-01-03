@@ -1,6 +1,8 @@
 <h1 align="center">OOP-Login-and-Sign-up-System</h1>
 <h4 align="center">Object oriented Login and Sign up System</h4>
 
+<p align="center"><img src="https://wakatime.com/badge/user/0ac30051-5698-4ae9-851e-7d4853d4aba7/project/895242d1-4ecf-4309-9073-6fcbdc71fac7.svg"></p>
+
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
