@@ -14,6 +14,7 @@
   - lib/layouts/header.php
   - lib/layouts/footer.php
   - lib/views/login.php
+  - lib/views/reg.php
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
