@@ -13,6 +13,8 @@
                 <input type="text" name="username" id="" class="form-control form-input">
                 <p class="card-text">Password : </p>
                 <input type="password" name="password" id="" class="form-control form-input">
+
+                <input type="submit" value="Login" name="login" class="btn btn-primary">
             </form>
         </div>
     </div>
