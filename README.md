@@ -27,6 +27,7 @@ I develop this system using `Object oriented PHP` and `PDO` - `PHP Data Objects`
   - lib/views/login.php
   - lib/views/reg.php
   - lib/function/function.php
+  - lib/function/config.php
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
