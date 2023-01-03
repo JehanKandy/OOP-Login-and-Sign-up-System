@@ -13,61 +13,6 @@ I develop this system using `Object oriented PHP` and `PDO` - `PHP Data Objects`
 
 [more about OOP PHP and PDO](https://www.w3schools.com/php/php_mysql_intro.asp)
 
-in here i am not going to create a config.php file so connection functionalties in [function.php](https://github.com/JehanKandy/OOP-Login-and-Sign-up-System/blob/main/lib/function/function.php) file
-
-first lines of file 
-
-    $server = "localhost";
-    $user = "root";
-    $pass = "";
-    $db_name = "oop_login";
-    
-in here i create 4 php variables and assign some values such as following <br>
-`$server` for server - default - `localhost`<br>
-`$user` for xampp username - default - `root`<br>
-`$pass` for password - default - `null`<br>
-`db_name` for database that you want to add data<br>
-
-
-    try {
-        $con = new PDO("mysql:host=$server;dbname=$db_name", $user, $pass);
-        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        $con->beginTransaction();
-
-        function reg_user($usernmae,$email,$pass,$cpass){
-            
-        }
-
-    }
-    
-in above code i check the connection between php file and database, so in here i user `PDO` - `PHP Data Objects` or you can user `mysqli`
-
-[for connection](https://www.w3schools.com/php/php_mysql_connect.asp)
-
-
-if there are any error while make cannection between php and database you can get error message using following codelines
-
-    catch(PDOException $e){
-        $con->rollBack();
-        echo "ERROR: " . $e->getMessage();
-    }
-
-and you must close the connection end of file
-
-    $con=null;
-    
-and all functionalties of the system must be between 
-
-    $con->beginTransaction();
-        
-and 
-
-    }
-    catch(PDOException $e){
-        $con->rollBack();
-        echo "ERROR: " . $e->getMessage();
-    }
 
 
 # Development Timeline
