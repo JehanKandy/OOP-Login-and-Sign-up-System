@@ -29,6 +29,23 @@ in here i create 4 php variables and assign some values such as following <br>
 `db_name` for database that you want to add data<br>
 
 
+    try {
+        $con = new PDO("mysql:host=$server;dbname=$db_name", $user, $pass);
+        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $con->beginTransaction();
+
+        function reg_user($usernmae,$email,$pass,$cpass){
+            
+        }
+
+    }
+    
+in above code i check the connection between php file and database, so in here i user `PDO` - `PHP Data Objects` or you can user `mysqli`
+
+[for connection](https://www.w3schools.com/php/php_mysql_connect.asp)
+
+
 # Development Timeline
 
   <h4> 03 January 2023</h4>
