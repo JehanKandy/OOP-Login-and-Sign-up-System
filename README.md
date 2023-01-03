@@ -13,6 +13,7 @@
   - css/style.css
   - lib/layouts/header.php
   - lib/layouts/footer.php
+  - lib/views/login.php
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
