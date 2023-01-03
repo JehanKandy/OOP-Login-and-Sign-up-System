@@ -57,6 +57,17 @@ and you must close the connection end of file
 
     $con=null;
     
+and all functionalties of the system must be between 
+
+    $con->beginTransaction();
+        
+and 
+
+    }
+    catch(PDOException $e){
+        $con->rollBack();
+        echo "ERROR: " . $e->getMessage();
+    }
 
 
 # Development Timeline
