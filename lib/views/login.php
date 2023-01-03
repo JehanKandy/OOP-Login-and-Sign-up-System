@@ -16,6 +16,7 @@
 
                 <input type="submit" value="Login" name="login" class="btn btn-primary">
             </form>
+            Don't have an account? <a href="reg.php" style="text-decoration: none;">Sign up</a>
         </div>
     </div>
 </div>
