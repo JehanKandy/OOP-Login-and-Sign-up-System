@@ -44,6 +44,13 @@ then
 and i use `try` key word for make connection between php and database using `$conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);`
 as `new PDO` (`PDO` - `PHP Data Objects`)
 
+if there are any errors while make connection between php and database it follow up content of `catch` keyword
+
+        catch (PDOException $e){
+            exit("ERROR: ". $e->getMessage());
+        }
+
+
 # Development Timeline
 
   <h4> 03 January 2023</h4>
