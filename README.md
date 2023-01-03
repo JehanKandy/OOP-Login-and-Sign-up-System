@@ -18,8 +18,22 @@ now i am going to create connection between php and Database
 
 [config.php](https://github.com/JehanKandy/OOP-Login-and-Sign-up-System/blob/main/lib/function/config.php)
 
+    <?php
+        define('HOST','localhost');
+        define('USER','root');
+        define('PASS','');
+        define('DB_NAME','oop_login');
 
+        try{
+            $conn = new PDO("mysql:host=".HOST.";dbname=".DB_NAME, USER, PASS);
+        }
 
+        catch (PDOException $e){
+            exit("ERROR: ". $e->getMessage());
+        }
+    ?>
+    
+firstly i define `HOST`, `USER`, `PASS`, `DB_NAME` and assign `localhost` as server, `root` as user, null or empty as password, and `oop_login` as database name
 
 # Development Timeline
 
