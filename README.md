@@ -46,6 +46,9 @@ in above code i check the connection between php file and database, so in here i
 [for connection](https://www.w3schools.com/php/php_mysql_connect.asp)
 
 
+if there are any error while make cannection between php and database you can get error message using following codelines
+
+
 # Development Timeline
 
   <h4> 03 January 2023</h4>
