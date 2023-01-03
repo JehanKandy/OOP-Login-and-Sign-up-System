@@ -6,11 +6,15 @@
     <div class="card-header">
         Login
     </div>
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+        <div class="card-body">
+
+            <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+                <p class="card-text">Username : </p>
+                <input type="text" name="username" id="" class="form-control form-input">
+                <p class="card-text">Password : </p>
+                <input type="password" name="password" id="" class="form-control form-input">
+            </form>
+        </div>
     </div>
 </div>
 
