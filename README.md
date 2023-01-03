@@ -6,6 +6,12 @@
 
 <h1>Explain Functions</h1>
 
+[function file](https://github.com/JehanKandy/OOP-Login-and-Sign-up-System/blob/main/lib/function/function.php)
+
+
+
+
+
 # Development Timeline
 
   <h4> 03 January 2023</h4>
