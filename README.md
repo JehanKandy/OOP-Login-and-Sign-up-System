@@ -48,6 +48,16 @@ in above code i check the connection between php file and database, so in here i
 
 if there are any error while make cannection between php and database you can get error message using following codelines
 
+    catch(PDOException $e){
+        $con->rollBack();
+        echo "ERROR: " . $e->getMessage();
+    }
+
+and you must close the connection end of file
+
+    $con=null;
+    
+
 
 # Development Timeline
 
