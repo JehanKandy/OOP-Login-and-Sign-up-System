@@ -6,7 +6,17 @@
     <div class="card-header">
         Sign up
     </div>
+
+
         <div class="card-body">
+            <?php 
+                include("../function/function.php");
+
+                if(isset($_POST['sign_up'])){
+                    $result = reg_user($_POST['username'], $_POST['email'], md5($_POST['pass']), md5($_POST['cpass']));
+                    echo $result;
+                }
+            ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                 <p class="card-text">Username : </p>
                 <input type="text" name="username" id="" class="form-control form-input">
